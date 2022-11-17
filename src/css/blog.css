@@ -1,0 +1,239 @@
+.blog-excerpt-section{
+     padding: 100px 0;
+}
+.blog-excerpt-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+.blog-excerpts{
+    padding: 0 30px;
+}
+.blogbox{
+     margin-bottom: 30px;
+}
+
+.blogbox .blogbox-image,
+.blog-main-image{
+     height: 400px;
+     border-radius: 10px;
+}
+.blogbox .blogbox-image img,
+.blog-main-image img{
+     border-radius: 10px;
+     object-fit: cover;
+}
+
+.blogbox h1{
+    font-size: 24px;
+    font-family: "Raleway";
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.blogbox p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.blogbox a{
+     display: flex;
+     gap: 5px;
+     align-items: center;
+     color: var(--main-color);
+     text-transform: uppercase;
+     margin-top: 20px;
+     font-family: "Raleway";
+     font-size: 15px;
+     letter-spacing: 2px;
+}
+.blogbox a span{
+     display: inline-flex;
+}
+.blogbox a:hover{
+    color: rgb(8, 11, 13);
+}
+.recent-post-container,
+.categories-box,
+.follow-box,
+.grow-box{
+      background: white;
+      padding: 50px 40px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 7px -1px gainsboro;
+      margin-bottom: 30px;
+}
+
+.recent-post-moja{
+    margin: 20px 0;
+}
+.recent-post-moja h3{
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-family: "Raleway";
+    font-weight: 600;
+}
+.recent-post-moja:hover h3{
+     color: var(--main-color);
+}
+.recent-post-moja p{
+    display: flex;
+    color: #444;
+    font-weight: 500;
+    gap: 5px;
+    align-items: center;
+}
+.recent-post-moja span{
+    display: inline-flex;
+}
+.categories-box ul{
+    margin-top: 20px;
+}
+.categories-box ul li{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 17px;
+      font-weight: 500;
+      margin-bottom: 10px;
+}
+.categories-box ul li ion-icon{
+    display: inline-flex;
+    color:rgb(252, 156, 12);
+}
+.categories-box ul li:hover{
+     color: var(--main-color);
+     cursor: pointer;
+}
+.categories-box ul li:hover ion-icon{
+     color: var(--main-color);
+}
+.follow-box p{
+    margin: 20px 0;
+}
+.btn{
+    margin-top: 30px;
+    display: block;
+}
+.btn a{
+    width: 180px;
+    background: var(--main-color);
+    color: white;
+    height: 50px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.grow-box{
+    position:relative;
+    overflow: hidden;
+}
+
+.grow-box img{
+     position: absolute;
+     object-fit: cover;
+     top:0;
+     bottom: 0;;
+     left: 0;
+     z-index: 1;
+}
+.grow-box .image-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: 3;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.grow-box h2,
+.grow-box p,
+.grow-box .btn{
+     z-index: 4;
+     color: white;
+     position: relative
+}
+.grow-box h2{
+    margin-bottom: 20px;
+}
+
+
+
+/* Single Article */
+.tabulator{
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    width: 500px;
+}
+.single-blog-intro h1{
+    font-size: 40px;
+    width: 85%;
+    font-family: "Raleway";
+    margin: auto;
+    color: white;
+    font-weight: 600;
+}
+.author, .date, .category{
+      color:white;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+}
+.tabulator p{
+     font-weight: 600;
+}
+.tabulator span{
+    display: inline-flex;
+    color:var(--main-color);
+}
+
+.blog-details-container{
+    padding: 100px 0;
+}
+.blog-details-container .inner-row{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.blog-main-image{
+    margin-bottom: 30px;
+}
+
+.blog-real-details p{
+     font-size: 17px;
+     line-height: 30px;
+}
+.blog-real-details h2{
+    font-family: "Raleway";
+    font-size: 25px;
+    margin: 30px 0;
+}
+.article-images{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 20px;
+     margin: 20px 0;
+}
+
+.article-images img{
+     border-radius: 10px;
+}
+
+@media(max-width: 1050px){
+      .blog-excerpt-content,
+      .blog-details-container .inner-row{
+            grid-template-columns: repeat(1,1fr);
+      }
+}
+@media(max-width: 480px){
+      .article-images{
+          grid-template-columns: repeat(1,1fr);
+      }
+}

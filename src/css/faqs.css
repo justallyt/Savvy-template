@@ -1,0 +1,90 @@
+.faqs-wrapper{
+    padding: 100px 0;
+ }
+.faqs-content-row,
+.payment-faq-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.faq-container{
+      margin-bottom: 20px;
+}
+.faq-header{
+     background: #b0e3e34f;
+     border-radius: 30px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 20px;
+     cursor: pointer;
+}
+.faq-header.active{
+     background: #19C2C1;
+     color: white;
+}
+.faq-header h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+.faq-header span{
+     display: inline-flex;
+     color: #ffb031;
+     font-size: 24px;
+}
+.faq-header.active span{
+    transform: rotate(-90deg);
+    transition: transform 0.5s ease;
+    color: white;
+}
+.faq-answer{
+     overflow: hidden;
+     max-height: 0;
+     transition: all 0.5s ease;
+}
+.faq-answer.active{
+      max-height: 300px;
+}
+.faq-answer-inner{
+     padding: 10px 20px;
+}
+.faq-answer p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.payment-faq,
+.other-faq{
+     padding-bottom: 100px;
+}
+.payment-faq-column.flexate{
+     display: flex;
+     align-items: center;
+}
+
+.payment-faq-column h1{
+     font-size: 45px;
+     font-family: "Raleway";
+     margin-bottom: 20px;
+}
+.payment-faq-column.flexate p{
+    font-size: 19px;
+    line-height: 30px;
+    margin-right: 10%;
+}
+@media(max-width: 1050px){
+      .faqs-content-row,
+      .payment-faq-content{
+          grid-template-columns: repeat(1,1fr);
+      }
+      .payment-faq-column.flexate p{
+           margin-right: 0;
+      }
+      .other-faq .payment-faq-column.flexate{
+          order: 1
+      }
+      .other-faq .payment-faq-column{
+          order: 2;
+      }
+}

@@ -1,0 +1,183 @@
+.counter-container{
+       padding-bottom: 100px;
+}
+
+.counter-content-row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.counter-moja{
+      text-align: center;
+}
+.counter-moja .icon-section span{
+     font-size: 35px;
+     color: var(--secondary-color);
+}
+.counter-moja h2{
+    font-size: 45px;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.counter-moja h2 figure{
+    font-weight: 100;
+    font-size: 25px;
+}
+.partners-about-tweak{
+      padding-top: 50px;
+      background: white;
+}
+
+.actionate-container{
+    background: linear-gradient(rgba(10, 37, 56, 0.8), rgba(10, 37, 56, 0.8)), url("/public/img/actionate-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.actionate-text-content{
+      width: 900px;
+      margin:auto;
+      text-align: center;
+}
+.actionate-text-content h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Raleway";
+    color: white;
+    margin-bottom: 20px;
+}
+.actionate-text-content p{
+      font-size: 18px;
+      color:white;
+      line-height: 28px;
+}
+.actionate-text-content a{
+      width: 180px;
+      background: var(--main-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      margin: 20px auto;
+      border-radius: 50px;
+      font-weight: 500;
+      color: white;
+      transition: background 0.5s ease;
+}
+.actionate-text-content a:hover{
+     background: white;
+     color: var(--main-color);
+}
+
+.team-wrapper{
+       padding: 100px 0;
+}
+
+.experts-row{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 30px;
+      margin-top: 30px;
+}
+.expert-moja .employee-image img{
+      box-shadow: 0px 0px 3px -1px gainsboro;;
+}
+.expert-moja,
+.expert-moja .employee-image,
+.employee-image img{
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+}
+
+.expert-overlay{
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.expert-overlay .expert-overlay-inner{
+      display: flex;
+       justify-content: center;
+       align-items: flex-end;
+       width: 90%;
+       height: 90%;
+       background: rgba(10, 37, 56, 0.8);
+       border-radius: 20px;
+       transform: scale(1.2);
+       opacity: 0;
+       transition: all 0.5s ease;
+}
+.expert-moja:hover .expert-overlay-inner{
+        transform: scale(1);
+        opacity: 1;
+}
+.expert-overlay .expert-profile{
+      text-align: center;
+      margin-bottom: 50px;
+      color: white;
+}
+.expert-profile h2{
+      font-size: 25px;
+      font-weight: 400;
+      margin-bottom: 10px;
+}
+.expert-profile p{
+      color: rgb(211, 211, 211);
+      font-weight: 500;
+}
+.expert-social-links{
+      margin-top: 20px;
+}
+.expert-social-links ul{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+}
+.expert-social-links ul li a{
+       width: 40px;
+       height: 40px;
+       background: var(--main-color);
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50%;
+       transition:  transform 0.5s ease;;
+}
+.expert-social-links ul li a:hover{
+      transform: scale(0.9);
+      color: var(--main-color);
+      background: white;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 1050px){
+      .actionate-text-content{
+            width: 90%;
+      }
+}
+@media(max-width: 768px){
+      .counter-content-row{
+        justify-content: center;
+      }
+      .experts-row{
+            grid-template-columns: repeat(1,1fr);
+      }
+}
