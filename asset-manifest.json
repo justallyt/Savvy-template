@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/justallyt/Savvy-template/static/css/main.86c4567c.css",
-    "main.js": "/justallyt/Savvy-template/static/js/main.69565570.js",
+    "main.js": "/justallyt/Savvy-template/static/js/main.c1934008.js",
     "static/media/business-people.jpg": "/justallyt/Savvy-template/static/media/business-people.0d23af915dca30f0dfd9.jpg",
     "static/media/actionate-bg.jpg": "/justallyt/Savvy-template/static/media/actionate-bg.58abbc9d7c05105c5da5.jpg",
     "static/media/happy-man.png": "/justallyt/Savvy-template/static/media/happy-man.3310c5430ac8fef02fae.png",
@@ -20,10 +20,10 @@
     "static/media/footer-logo.png": "/justallyt/Savvy-template/static/media/footer-logo.424cbd9276652ea3b40b.png",
     "index.html": "/justallyt/Savvy-template/index.html",
     "main.86c4567c.css.map": "/justallyt/Savvy-template/static/css/main.86c4567c.css.map",
-    "main.69565570.js.map": "/justallyt/Savvy-template/static/js/main.69565570.js.map"
+    "main.c1934008.js.map": "/justallyt/Savvy-template/static/js/main.c1934008.js.map"
   },
   "entrypoints": [
     "static/css/main.86c4567c.css",
-    "static/js/main.69565570.js"
+    "static/js/main.c1934008.js"
   ]
 }
