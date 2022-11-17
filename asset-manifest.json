@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/justallyt/Savvy-template/static/css/main.86c4567c.css",
-    "main.js": "/justallyt/Savvy-template/static/js/main.c1934008.js",
-    "static/media/business-people.jpg": "/justallyt/Savvy-template/static/media/business-people.0d23af915dca30f0dfd9.jpg",
-    "static/media/actionate-bg.jpg": "/justallyt/Savvy-template/static/media/actionate-bg.58abbc9d7c05105c5da5.jpg",
-    "static/media/happy-man.png": "/justallyt/Savvy-template/static/media/happy-man.3310c5430ac8fef02fae.png",
-    "static/media/landing1.png": "/justallyt/Savvy-template/static/media/landing1.695a81a72a022342728a.png",
-    "static/media/gaftf.png": "/justallyt/Savvy-template/static/media/gaftf.ab1ba31d3e915ead4483.png",
-    "static/media/un-women.png": "/justallyt/Savvy-template/static/media/un-women.99c703319b942979d52c.png",
-    "static/media/kra.png": "/justallyt/Savvy-template/static/media/kra.2d2250e98bc6a6204978.png",
-    "static/media/profile-1.jpg": "/justallyt/Savvy-template/static/media/profile-1.ab9ecc905e0a6c3f8199.jpg",
-    "static/media/profile-3.jpg": "/justallyt/Savvy-template/static/media/profile-3.b155f9d9d8e8585d33ba.jpg",
-    "static/media/profile-4.jpg": "/justallyt/Savvy-template/static/media/profile-4.7b18009db796216d8d51.jpg",
-    "static/media/ey.jpg": "/justallyt/Savvy-template/static/media/ey.f1400edbb73c32130358.jpg",
-    "static/media/profile-2.jpg": "/justallyt/Savvy-template/static/media/profile-2.6347f546a75c08a816e0.jpg",
-    "static/media/kpi-graph.png": "/justallyt/Savvy-template/static/media/kpi-graph.8ef63d2a5222d4812872.png",
-    "static/media/logo.png": "/justallyt/Savvy-template/static/media/logo.dd00c57e649aeb7e63d1.png",
-    "static/media/quote.png": "/justallyt/Savvy-template/static/media/quote.b2e85cf363b5350276df.png",
-    "static/media/footer-logo.png": "/justallyt/Savvy-template/static/media/footer-logo.424cbd9276652ea3b40b.png",
-    "index.html": "/justallyt/Savvy-template/index.html",
-    "main.86c4567c.css.map": "/justallyt/Savvy-template/static/css/main.86c4567c.css.map",
-    "main.c1934008.js.map": "/justallyt/Savvy-template/static/js/main.c1934008.js.map"
+    "main.css": "/Savvy-template/static/css/main.7c76d9c3.css",
+    "main.js": "/Savvy-template/static/js/main.67c0d417.js",
+    "static/media/business-people.jpg": "/Savvy-template/static/media/business-people.0d23af915dca30f0dfd9.jpg",
+    "static/media/actionate-bg.jpg": "/Savvy-template/static/media/actionate-bg.58abbc9d7c05105c5da5.jpg",
+    "static/media/happy-man.png": "/Savvy-template/static/media/happy-man.3310c5430ac8fef02fae.png",
+    "static/media/landing1.png": "/Savvy-template/static/media/landing1.695a81a72a022342728a.png",
+    "static/media/gaftf.png": "/Savvy-template/static/media/gaftf.ab1ba31d3e915ead4483.png",
+    "static/media/un-women.png": "/Savvy-template/static/media/un-women.99c703319b942979d52c.png",
+    "static/media/kra.png": "/Savvy-template/static/media/kra.2d2250e98bc6a6204978.png",
+    "static/media/profile-1.jpg": "/Savvy-template/static/media/profile-1.ab9ecc905e0a6c3f8199.jpg",
+    "static/media/profile-3.jpg": "/Savvy-template/static/media/profile-3.b155f9d9d8e8585d33ba.jpg",
+    "static/media/profile-4.jpg": "/Savvy-template/static/media/profile-4.7b18009db796216d8d51.jpg",
+    "static/media/ey.jpg": "/Savvy-template/static/media/ey.f1400edbb73c32130358.jpg",
+    "static/media/profile-2.jpg": "/Savvy-template/static/media/profile-2.6347f546a75c08a816e0.jpg",
+    "static/media/kpi-graph.png": "/Savvy-template/static/media/kpi-graph.8ef63d2a5222d4812872.png",
+    "static/media/logo.png": "/Savvy-template/static/media/logo.dd00c57e649aeb7e63d1.png",
+    "static/media/quote.png": "/Savvy-template/static/media/quote.b2e85cf363b5350276df.png",
+    "static/media/footer-logo.png": "/Savvy-template/static/media/footer-logo.424cbd9276652ea3b40b.png",
+    "index.html": "/Savvy-template/index.html",
+    "main.7c76d9c3.css.map": "/Savvy-template/static/css/main.7c76d9c3.css.map",
+    "main.67c0d417.js.map": "/Savvy-template/static/js/main.67c0d417.js.map"
   },
   "entrypoints": [
-    "static/css/main.86c4567c.css",
-    "static/js/main.c1934008.js"
+    "static/css/main.7c76d9c3.css",
+    "static/js/main.67c0d417.js"
   ]
 }
